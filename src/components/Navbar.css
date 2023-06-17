@@ -1,0 +1,13 @@
+
+button{
+    color: #009917;
+    background-color: #FFFFE0;
+    padding: 5px;
+    margin-left: 10px;
+    border-color: aliceblue;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+}

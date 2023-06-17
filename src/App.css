@@ -1,0 +1,94 @@
+.App {
+  width:100vw;
+  height:100vh;
+  background-color: #FFFFE0;
+}
+body{
+margin: 0;
+padding: 0;
+}
+.div{
+display: flex;
+flex-direction: row;
+}
+
+/* NAV BAR */
+ button{
+  color: #009917;
+  background-color: #FFFFE0;
+  padding: 5px;
+  margin-left: 10px;
+  border-color: aliceblue;
+}
+
+.navbar-collapse{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Side Bar */
+.Sidebar{
+  height:250px;
+  width: 250px;
+  background-color: #FFFFFF;
+  margin: 20px;
+}
+.sideHeader{
+  padding: 15px;
+}
+.sideContent{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.sideButton{
+  color: #1b1b1b;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  margin: 2px;
+  padding: 5px;
+  background-color: #FFFFE0;
+}
+
+/* ExpiredMembership */
+.btn2row{
+  border: 1px solid #009917;
+  background: white;
+  color: #009917;
+  margin-left: 10px;
+  padding: 10px;
+}
+.ExpiredMembershipTable{
+  width:100%
+}
+.ExpiredMembershipTable th{
+border-bottom: 1px solid black;
+text-align: center;
+}
+.ExpiredMembershipTable td{
+border-bottom: 1px solid black;
+text-align: center;
+}
+.tdImage{
+  width: 50px;
+ 
+}
+.tdID{
+  color:white;
+  background-color: #009917;
+}
+.tdRenew{
+  color: #009917;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #FFFFE0;
+  padding: 5px 10px 5px 10px;    
+}
+.tdSms{
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #009917;
+  padding: 5px 10px 5px 10px;
+}

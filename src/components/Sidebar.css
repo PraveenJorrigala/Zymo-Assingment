@@ -1,0 +1,23 @@
+.Sidebar{
+    height:250px;
+    width: 250px;
+    background-color: #FFFFFF;
+    margin: 20px;
+  }
+  .sideHeader{
+    padding: 15px;
+  }
+  .sideContent{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .sideButton{
+    color: #1b1b1b;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin: 2px;
+    padding: 5px;
+    background-color: #FFFFE0;
+  }

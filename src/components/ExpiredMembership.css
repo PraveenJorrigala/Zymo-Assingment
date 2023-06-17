@@ -1,0 +1,40 @@
+.btn2row{
+    border: 1px solid #009917;
+    background: white;
+    color: #009917;
+    margin-left: 10px;
+    padding: 10px;
+}
+.ExpiredMembershipTable{
+    width:100%
+}
+.ExpiredMembershipTable th{
+border-bottom: 1px solid black;
+text-align: center;
+}
+.ExpiredMembershipTable td{
+border-bottom: 1px solid black;
+text-align: center;
+}
+.tdImage{
+    width: 50px;
+    heigth: 100px;
+}
+.tdID{
+    color:white;
+    background-color: #009917;
+}
+.tdRenew{
+    color: #009917;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #FFFFE0;
+    padding: 5px 10px 5px 10px;    
+}
+.tdSms{
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #009917;
+    padding: 5px 10px 5px 10px;
+}
